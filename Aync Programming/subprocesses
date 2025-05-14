@@ -1,0 +1,11 @@
+import asyncio
+
+async def run_command():
+    proc = await asyncio.create_subprocess_exec(
+        'echo', 'Hello from subprocess',
+        stdout=asyncio.subprocess.PIPE
+    )
+    stdout, _ = await proc.communicate()
+    print(stdout.decode().strip())
+
+asyncio.run(run_command())
