@@ -5,3 +5,5 @@
 *.py
 files
 clutteredFolder
+venv/
+downloadImages
