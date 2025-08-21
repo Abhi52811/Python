@@ -1,0 +1,6 @@
+ERROR:root:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\abhis\AppData\Local\Temp\ipykernel_29908\349171916.py", line 6, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
